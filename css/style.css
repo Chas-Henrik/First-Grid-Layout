@@ -49,36 +49,36 @@ body {
 .header {
     grid-column: 1 / -1;
     grid-row: 1 / 1;
-    background: #7B32BA;
+    background: var(--purple);
     color: white;
 }
 
 .main-content {
     grid-column: 2 / span 4;
     grid-row: 2 / 2;
-    background: #E5A93F;
+    background: var(--yellow);
 }
 
 .sidebar {
     grid-column: 6 / span 2;
     grid-row: 2 / 2;
-    background: #D36754;
+    background: var(--red);
 }
 
 .adspace-1 {
     grid-column: 2 / span 3;
     grid-row: 3 / 3;
-    background: #F8F550;
+    background: var(--light-yellow);
 }
 
 .adspace-2 {
     grid-column: 5 / span 3;
     grid-row: 3 / 3;
-    background: #C67594;
+    background: var(--cerise);
 }
 
 .footer {
     grid-column: 1 / -1;
     grid-row: 4 / 4;
-    background: #899DC6;
+    background: var(--blue);
 }
