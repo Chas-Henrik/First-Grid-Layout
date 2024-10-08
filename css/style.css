@@ -42,7 +42,7 @@ body {
 .container {
     /* Define CSS Grid template here */
     display: grid;
-    grid-template-columns: 1fr minmax(auto, 10rem) minmax(auto, 10rem) minmax(auto, 10rem) minmax(auto, 10rem) minmax(auto, 10rem) minmax(auto, 10rem) 1fr;
+    grid-template-columns: 1fr repeat(6, minmax(auto, 10rem)) 1fr;
     grid-template-rows: auto 1fr auto auto;
 }
 
